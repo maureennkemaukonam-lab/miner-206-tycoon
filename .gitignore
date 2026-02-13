@@ -1,20 +1,19 @@
-# Ignoring temporary and build files
-*.log
-*.tmp
-*.pid
-*.db
+# Node modules
 node_modules/
-/dist/
-/build/
+
+# macOS System files
 .DS_Store
-*.class
-*.jar
-*.war
-*.exe
-*.o
-*.out
-*.so
-*.swp
-# OS generated files
-Thumbs.db
-ehthumbs.db
+
+# Logs
+logs/
+*.log
+
+# Dependency directories
+jspm_packages/
+
+# Build directories
+dist/
+build/
+
+# Other files
+*.tgz
